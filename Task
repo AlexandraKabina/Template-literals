@@ -1,0 +1,13 @@
+balance = prompt("Введите баланс:");
+if (balance.match(/3$/)){
+    if (balance.match(/13$/)){
+	console.log(`Ваш баланс: ${balance} баллов`);
+	} else {
+	console.log(`Ваш баланс: ${balance} балла`);	
+}}
+if (balance.match(/1$/)){
+	console.log(`Ваш баланс: ${balance} балл`);
+	}
+if (balance.match(/0$/)){
+	console.log(`Ваш баланс: ${balance} баллов`);
+	}
